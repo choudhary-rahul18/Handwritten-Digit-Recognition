@@ -29,3 +29,30 @@ This project implements a **Convolutional Neural Network (CNN)** to recognize ha
 -      macro avg     0.99      0.99     0.99     10000
 -      weighted avg   0.99     0.99     0.99     10000
 
+
+---
+
+##  How to Use
+
+###  Predict a Digit Image with `main.py`
+
+1. Install dependencies:
+```bash
+pip install tensorflow pillow numpy matplotlib
+```
+
+2. Place your digit image (28×28 pixels, black digit on white background) in the project directory.
+
+3. Run the script:
+   python main.py my_digit.png
+   
+##  Future Work
+* Deploy using Streamlit or Flask for real-time web prediction
+
+* Train on your own digit dataset for personalization
+
+* Expand to multi-digit or character recognition
+
+
+
+
