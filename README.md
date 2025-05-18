@@ -53,6 +53,11 @@ pip install tensorflow pillow numpy matplotlib
 
 * Expand to multi-digit or character recognition
 
+# Author
+Built with ❤️
+- by Rahul 
+
+
 
 
 
