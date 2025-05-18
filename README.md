@@ -1,10 +1,10 @@
-# 🧠 Handwritten Digit Recognition using CNN
+# Handwritten Digit Recognition using CNN
 
 This project implements a **Convolutional Neural Network (CNN)** to recognize handwritten digits (0–9) using the MNIST dataset. The model achieves over **99% accuracy** and can also predict real-world digit images.
 
 ---
 
-## 📂 Files in the Repository
+## Files in the Repository
 
 - `main.py` – Script to load the trained model and predict digits from external images
 - `cnn_digit_classifier.h5` – Trained CNN model (Keras format)
@@ -14,7 +14,7 @@ This project implements a **Convolutional Neural Network (CNN)** to recognize ha
 
 ---
 
-## 🧠 Model Summary
+## Model Summary
 
 - **Architecture:**  
   - 2 × Conv2D + ReLU + MaxPooling
@@ -23,4 +23,10 @@ This project implements a **Convolutional Neural Network (CNN)** to recognize ha
 - **Trained on:** MNIST dataset (60,000 training, 10,000 testing samples)
 - **Final accuracy:** 99.0% on test set
 
-### 🔍 Classification Report
+### Classification Report
+ -               precision    recall  f1-score   support
+...
+accuracy                           0.99     10000
+macro avg       0.99      0.99      0.99     10000
+weighted avg    0.99      0.99      0.99     10000
+
