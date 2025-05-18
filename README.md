@@ -24,9 +24,8 @@ This project implements a **Convolutional Neural Network (CNN)** to recognize ha
 - **Final accuracy:** 99.0% on test set
 
 ### Classification Report
- -               precision    recall  f1-score   support
-...
-accuracy                           0.99     10000
-macro avg       0.99      0.99      0.99     10000
-weighted avg    0.99      0.99      0.99     10000
+-               precision    recall  f1-score   support
+-      accuracy                         0.99     10000
+-      macro avg     0.99      0.99     0.99     10000
+-      weighted avg   0.99     0.99     0.99     10000
 
